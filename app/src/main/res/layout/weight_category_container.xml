@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="wrap_content"
+    android:id="@+id/weight_container"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/id_kilogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/list_container_text_view_size"
+        android:padding="@dimen/container_text_view_padding"
+        android:clickable="true"
+        android:textColor="@color/charcoal"
+        android:onClick="changeToKilogram"
+        android:text="@string/kilogram"
+        style="@style/container_selector"/>
+
+    <TextView
+        android:id="@+id/id_pound"
+        android:textSize="@dimen/list_container_text_view_size"
+        android:padding="@dimen/container_text_view_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/charcoal"
+        android:clickable="true"
+        android:onClick="changeToPound"
+        android:text="@string/pound"
+        style="@style/container_selector"/>
+</LinearLayout>

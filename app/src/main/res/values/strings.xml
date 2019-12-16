@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+
+
+<!--    KEYBOARD BUTTONS-->
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+    <string name="btn_go">Go</string>
+    <string name="kilogram">Kilogram</string>
+    <string name="text_view_size">60</string>
+    <string name="weight">Weight</string>
+    <string name="centimeter">Centimeter</string>
+    <string name="height_text_view">170</string>
+    <string name="height">Height</string>
+    <string name="pound">Pound</string>
+    <string name="meter">Meter</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inch</string>
+    <string name="bmi">BMI</string>
+    <string name="demo_result_value">22.5</string>
+    <string name="information">Information</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="over_weight">Over weight</string>
+    <string name="overweight_info">40.0</string>
+    <string name="normal_weight_info">25.0</string>
+    <string name="text_view_underweight">16.0</string>
+    <string name="text_view_normal_min">18.5</string>
+    <string name="ac_btn">AC</string>
+    <string name="go_btn">GO</string>
+    <string name="decimal_btn">.</string>
+    <string name="onClick">onClick</string>
+    <string name="underWeight">Underweight</string>
+    <string name="overweight">Over Weight</string>
+
+
+</resources>

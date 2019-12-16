@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypad_grid_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:background="@color/background_color">
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_seven"
+            android:stateListAnimator="@null"
+            android:text="@string/number_seven" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_eight"
+            android:stateListAnimator="@null"
+            android:text="@string/number_eight" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_nine"
+            android:stateListAnimator="@null"
+            android:text="@string/number_nine" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:text="@string/ac_btn"
+            android:stateListAnimator="@null"
+            android:id="@+id/btn_ac"
+            android:textColor="#FF5D00" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_four"
+            android:stateListAnimator="@null"
+            android:text="@string/number_four" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_five"
+            android:stateListAnimator="@null"
+            android:text="@string/number_five" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_six"
+            android:stateListAnimator="@null"
+            android:text="@string/number_six" />
+
+        <ImageButton
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_back_space"
+            android:src="@drawable/ic_noun_backspace_234339" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_one"
+            android:stateListAnimator="@null"
+            android:text="@string/number_one" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_two"
+            android:stateListAnimator="@null"
+            android:text="@string/number_two" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_three"
+            android:stateListAnimator="@null"
+            android:text="@string/number_three" />
+
+        <Button
+            style="@style/goButtonTheme"
+            android:id="@+id/btn_go"
+            android:layout_rowSpan="2"
+            android:layout_gravity="fill_vertical"
+            android:stateListAnimator="@null"
+            android:text="@string/go_btn"
+            android:textColor="@color/white" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:layout_columnSpan="2"
+            android:stateListAnimator="@null"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/btn_zero"
+            android:text="@string/number_zero" />
+
+        <Button
+            style="@style/ButtonTheme"
+            android:id="@+id/btn_decimal"
+            android:stateListAnimator="@null"
+            android:text="@string/decimal_btn" />
+
+
+</GridLayout>

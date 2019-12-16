@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/layout_width"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/height_container_left_margin"
+    android:layout_marginEnd="@dimen/height_container_right_margin"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_centimeter"
+        style="@style/container_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="changeToCentimeter"
+        android:padding="@dimen/container_text_view_padding"
+        android:text="@string/centimeter"
+        android:textColor="@color/charcoal"
+        android:textSize="@dimen/list_container_text_view_size" />
+
+    <TextView
+        android:id="@+id/id_meter"
+        style="@style/container_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="changeToMeter"
+        android:padding="@dimen/container_text_view_padding"
+        android:text="@string/meter"
+        android:textColor="@color/charcoal"
+        android:textSize="@dimen/list_container_text_view_size" />
+
+    <TextView
+        android:id="@+id/id_feet"
+        style="@style/container_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="changeToFeet"
+        android:padding="@dimen/container_text_view_padding"
+        android:text="@string/feet"
+        android:textColor="@color/charcoal"
+        android:textSize="@dimen/list_container_text_view_size" />
+
+    <TextView
+        android:id="@+id/id_inch"
+        style="@style/container_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="changeToInch"
+        android:padding="@dimen/container_text_view_padding"
+        android:text="@string/inch"
+        android:textColor="@color/charcoal"
+        android:textSize="@dimen/list_container_text_view_size" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="textViewHoverColor">#FF5D00</color>
+    <color name="textViewNormalColor">#4A4A4A</color>
+
+    <color name="underWeight">#4091E2</color>
+    <color name="normal">#07B566</color>
+    <color name="overWeight">#FF6657</color>
+    <color name="charcoal">#4A4A4A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="safety_orange">#FF5D00</color>
+    <color name="storm_grey">#6F7480</color>
+    <color name="green">#07B566</color>
+    <color name="manatee">#888C96</color>
+    <color name="nobel">#979797</color>
+    <color name="whiteSmokeColor">#F5F5F5</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="background_color">#F1F3F3</color>
+    <color name="grey_87">#DEDEDE</color>
+
+</resources>

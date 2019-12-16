@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <LinearLayout
+        android:id="@+id/down_arrow_weight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/weight_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_text_view_weight"
+            android:paddingTop="@dimen/padding_text_view_weight"
+            android:paddingBottom="@dimen/padding_text_view_weight"
+            android:text="@string/weight"
+            android:textColor="@color/charcoal"
+            android:textSize="@dimen/weight_type_text_size" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/ic_arrow_drop_down_24px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weight_selector"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/weight_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:maxLength="6"
+            android:paddingTop="@dimen/padding_top_weight_value"
+            android:paddingEnd="@dimen/padding_end_weight_value"
+            android:text="@string/text_view_size"
+            android:textSize="@dimen/text_size_weight_value" />
+
+        <TextView
+            android:id="@+id/weight_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingEnd="@dimen/padding_end_weight_label"
+            android:paddingBottom="@dimen/padding_bottom_weight_label"
+            android:text="@string/kilogram" />
+
+    </LinearLayout>
+
+</LinearLayout>
